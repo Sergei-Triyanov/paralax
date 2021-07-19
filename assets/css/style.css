@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.banner .container {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(#e9e49ce3, #d3b50e);
+}
+
+.banner .container #scene {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.banner .container #scene #text {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  position: relative;
+  font-size: 12rem;
+  color: #fff;
+  z-index: 100;
+}
+
+.banner .container #scene #text span {
+  position: relative !important;
+  display: inline-block;
+  text-shadow: 1px 1px 0 #e5e5e5, 2px 2px 0 #e5e5e5, 3px 3px 0 #e5e5e5, 4px 4px 0 #e5e5e5, 5px 5px 0 #e5e5e5, 6px 6px 0 #e5e5e5, 7px 7px 0 #e5e5e5, 8px 8px 0 #e5e5e5, 25px 35px 0 rgba(0, 0, 0, 0.1);
+}
+
+.banner .container #scene .image {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+}
+
+.banner .container #scene .image .casle {
+  margin: 200px;
+}
+
+.banner .container #scene .image .img1 {
+  margin: -100px 20px;
+}
+
+.banner .container #scene .image .img2 {
+  margin: -100px 0 0 500px;
+}
+
+.banner .container #scene .image .img3 {
+  margin: 440px 0 0 500px;
+}
+
+.banner .container #scene .image .img4 {
+  margin: 20px 0 0 240px;
+}
+
+.banner .container #scene .image .img5 {
+  margin: 440px 0px 0 0;
+}
+
+.banner .container #scene .image .img6 {
+  margin: 540px 0 0 240px;
+}
+/*# sourceMappingURL=style.css.map */
